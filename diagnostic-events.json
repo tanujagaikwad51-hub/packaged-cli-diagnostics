@@ -1,0 +1,10 @@
+{
+  "description": "Illustrative event fixture inspired by the task's diagnostic-event sample link; the official source file was not fetched into this repository.",
+  "events": [
+    {"type": "python_version", "value": "3.12.2"},
+    {"type": "disk_space", "free_mb": 4096},
+    {"type": "tool_check", "name": "git", "available": true},
+    {"type": "tool_check", "name": "node", "available": false},
+    {"type": "environment_variable", "name": "PATH", "present": true}
+  ]
+}
