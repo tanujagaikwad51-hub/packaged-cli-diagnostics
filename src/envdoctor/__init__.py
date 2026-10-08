@@ -1,0 +1,1 @@
+"""EnvDoctor CLI diagnostics tool."""
