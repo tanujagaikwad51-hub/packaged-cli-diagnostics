@@ -1,0 +1,28 @@
+
+{
+  "schema_version": "1.0",
+  "tool": "envdoctor",
+  "status": "healthy",
+  "summary": {
+    "total": 3,
+    "passed": 3,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "python_version",
+      "status": "healthy",
+      "details": "Python version meets the minimum requirement."
+    },
+    {
+      "name": "disk_space",
+      "status": "healthy",
+      "details": "Free disk space meets the minimum requirement."
+    },
+    {
+      "name": "git",
+      "status": "healthy",
+      "details": "Git is available."
+    }
+  ]
+}

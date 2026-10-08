@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "tool": "envdoctor",
+  "status": "unhealthy",
+  "summary": {"total": 4, "passed": 3, "failed": 1},
+  "checks": [
+    {"name": "disk_space", "status": "ok", "details": "4096 MiB free at /workspace; minimum required 500 MiB"},
+    {"name": "python", "status": "ok", "details": "Python 3.12.2; minimum required 3.10"},
+    {"name": "tool:git", "status": "ok", "details": "git version 2.43.0 (exit 0)"},
+    {"name": "tool:node", "status": "fail", "details": "Command 'node' was not found on PATH"}
+  ]
+}
