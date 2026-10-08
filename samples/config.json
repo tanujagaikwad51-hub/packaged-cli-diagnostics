@@ -1,0 +1,13 @@
+
+{
+  "minimum_python": "3.10",
+  "minimum_free_disk_mb": 500,
+  "required_env": ["PATH"],
+  "tools": [
+    {
+      "name": "git",
+      "command": "git",
+      "version_args": ["--version"]
+    }
+  ]
+}
